@@ -1,4 +1,4 @@
-# Mono Xunit
+# Mono Xunit Example
 ---
 
-A very simple example showing off how to run Xunit tests on Mono.
+A very simple example showing off how to run Xunit tests on Mono.  I've also included a Travis CI example that installs Mono via a Mac OS X VM (hence the objective-c language). 
