@@ -12,6 +12,14 @@ namespace MonoXunit.Tests
 
 			Assert.True(item.Length == 4);
 		}
+
+		[Fact]
+		public void String_Is_Not_Null()
+		{
+			var item = new RandString().Gen();
+
+			Assert.False(String.IsNullOrEmpty(item));
+		}
 	}
 }
 
