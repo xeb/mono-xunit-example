@@ -5,7 +5,7 @@ install:
   # by default, all script lines are interpreted as batch
   - echo This is batch
 
-platform: AnyCPU
+platform: x86
 configuration: Debug
 build:
   project: MonoXunit.sln
