@@ -1,0 +1,14 @@
+version: 1.0.{build}
+os: Windows Server 2012
+
+install:
+  # by default, all script lines are interpreted as batch
+  - echo This is batch
+
+platform: Any CPU
+configuration: Debug
+build:
+  project: MonoXunit.sln
+
+test_script:
+  - \packages\xunit.runners.1.9.2\tools\xunit.console.clr4.x86.exe bin\Debug\MonoXunit.Tests.dll
