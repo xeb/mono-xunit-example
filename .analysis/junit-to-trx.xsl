@@ -33,10 +33,10 @@
         </Deployment>
       </TestRunConfiguration>
 
-      <xsl:variable name="testsuiteName" select="/testsuite/@name" />
-      <xsl:variable name="failed_count" select="/testsuite/@failures"/>
-      <xsl:variable name="errors_count" select="/testsuite/@Error"/>
-      <xsl:variable name="total_count" select="/testsuite/@testcase"/>
+      <xsl:variable name="testsuiteName" select="/testsuites/testsuite/@name" />
+      <xsl:variable name="failed_count" select="/testsuites/testsuite/@failures"/>
+      <xsl:variable name="errors_count" select="/testsuites/testsuite/@errors"/>
+      <xsl:variable name="total_count" select="/testsuites/testsuite/@tests"/>
       <xsl:variable name="pass_count" select="$total_count - $failed_count - $errors_count"/>
 		
       <ResultSummary>

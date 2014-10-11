@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <testsuites>
   <testsuite name="MonoXunit.Tests.RandomTest" tests="2" time="0.042" failures="0" errors="0" skipped="0">
-    <testcase classname="MonoXunit.Tests.RandomTest" name="Length_Is_Ok" time="0.042"/>
-    <testcase classname="MonoXunit.Tests.RandomTest" name="String_Is_Not_Null" time="0.000"/>
+    <testcase classname="MonoXunit.Tests.RandomTest" name="String_Is_Not_Null" time="0.042"/>
+    <testcase classname="MonoXunit.Tests.RandomTest" name="Length_Is_Ok" time="0.000"/>
   </testsuite>
 </testsuites>
