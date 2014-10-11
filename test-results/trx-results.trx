@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<TestRun xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006" xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils" id="00000000-0000-00ae-A281-FE9CF17251B6" runUser="User\Account" name="JavaScript Tests">
+  <TestRunConfiguration name="JUnit Test Run" id="3A1F7DF7-266A-41d6-8995-A19DDA49FAED">
+    <Description>This is an imported JUnit test run.</Description>
+    <CodeCoverage enabled="false"/>
+    <Deployment useDefaultDeploymentRoot="false" runDeploymentRoot="C:\"/>
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" total="100" executed="100" passed="97" failed="2" error="1"/>
+  </ResultSummary>
+  <Times creation="2008-01-01T00:00:00.0000000+0:00" queuing="2008-01-01T00:00:00.0000000+0:00" start="2008-01-01T00:00:00.0000000+0:00" finish="2008-01-01T00:00:00.0000000+0:00"/>
+  <Build flavor="Release" platform="AnyCPU"/>
+  <TestDefinitions>
+    <UnitTest name="MonoXunit.Tests.RandomTest.Length_Is_Ok" id="00000000-0000-00ae-A281-0000000DD001">
+      <Css projectStructure="" iteration=""/>
+      <Owners>
+        <Owner name=""/>
+      </Owners>
+      <Execution id="00000000-0000-00ae-A281-0000000EE001"/>
+      <TestMethod name="MonoXunit.Tests.RandomTest.Length_Is_Ok" codeBase="" className="MonoXunit.Tests.RandomTest"/>
+    </UnitTest>
+    <UnitTest name="MonoXunit.Tests.RandomTest.String_Is_Not_Null" id="00000000-0000-00ae-A281-0000000DD002">
+      <Css projectStructure="" iteration=""/>
+      <Owners>
+        <Owner name=""/>
+      </Owners>
+      <Execution id="00000000-0000-00ae-A281-0000000EE002"/>
+      <TestMethod name="MonoXunit.Tests.RandomTest.String_Is_Not_Null" codeBase="" className="MonoXunit.Tests.RandomTest"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" testId="00000000-0000-00ae-A281-0000000DD001" executionId="00000000-0000-00ae-A281-0000000EE001"/>
+    <TestEntry testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" testId="00000000-0000-00ae-A281-0000000DD002" executionId="00000000-0000-00ae-A281-0000000EE002"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult startTime="2008-01-01T00:00:01.0000000+0:00" endTime="2008-01-01T00:00:02.0000000+0:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" testName="MonoXunit.Tests.RandomTest.Length_Is_Ok" computerName="" duration="00:00:00.04200" testId="00000000-0000-00ae-A281-0000000DD001" executionId="00000000-0000-00ae-A281-0000000EE001" outcome="Passed">
+      <Output/>
+    </UnitTestResult>
+    <UnitTestResult startTime="2008-01-01T00:00:01.0000000+0:00" endTime="2008-01-01T00:00:02.0000000+0:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" testName="MonoXunit.Tests.RandomTest.String_Is_Not_Null" computerName="" duration="00:00:00.00000" testId="00000000-0000-00ae-A281-0000000DD002" executionId="00000000-0000-00ae-A281-0000000EE002" outcome="Passed">
+      <Output/>
+    </UnitTestResult>
+  </Results>
+</TestRun>
